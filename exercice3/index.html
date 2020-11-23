@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div style="background-color:red;"> Mon Paragraphe1</div> 
+<div style="background-color:rgb(16,99,30);">Mon Paragraphe2</div>    
+<div style="background-color:#523456;">Mon Paragraphe3</div>   
+<div style="background-color:#a11;">Mon Paragraphe4</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+    integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+    crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+        $('div').click(function(){
+            $(this).show();
+        });
+    });
+    </script>
+</body>
+</html>
