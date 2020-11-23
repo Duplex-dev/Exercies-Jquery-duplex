@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        .madiv{background-color: yellow;}
+    </style>
+
+    <p style="color: blue;"> ceci est mon paragraphe</p>
+    <div style="background-color: pink;">paragraphe</div>
+    <button>Click Me</button>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+    integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+    crossorigin="anonymous"></script>
+
+    <script>
+       
+            $('button').click(function(){
+            $('p').css({color:'red'});
+            $('div').addClass('madiv')
+        });
+
+    </script>
+</body>
+</html>
